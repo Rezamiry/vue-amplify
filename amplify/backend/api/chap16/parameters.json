@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "chap16",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authchap1654daccd5",
+      "Outputs.UserPoolId"
+    ]
+  }
+}
